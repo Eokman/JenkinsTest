@@ -1,2 +1,3 @@
+include ':LibSample'
 include ':app'
 rootProject.name = "JenkinsBuildTest"
