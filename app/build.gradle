@@ -23,6 +23,11 @@ android {
         }
     }
 }
+repositories {
+    maven {
+        url 'http://rainbow0930.mooo.com:8081/repository/maven-snapshots/'
+    }
+}
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
@@ -34,4 +39,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
+    implementation 'com.eokman.libsample:sample:1.0.0-SNAPSHOT'
 }
