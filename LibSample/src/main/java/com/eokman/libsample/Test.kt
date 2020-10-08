@@ -1,5 +1,5 @@
 package com.eokman.libsample
 
 class Test {
-    fun hi(): String = "helloabc"
+    fun hi(): String = "helloabcd"
 }
